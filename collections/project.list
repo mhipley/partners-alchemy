@@ -7,6 +7,7 @@
           {.image?}
           <div class="project-slide-image-container" data-image-dimensions="{originalSize}">
             <figure class="project-slide-image-wrapper content-fill not-ready">
+            
               <img class="project-slide-image loading" {@|image-meta} data-fixed-ratio="true" data-load="false" />
             </figure>
           </div>
