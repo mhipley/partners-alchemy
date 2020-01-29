@@ -99,6 +99,7 @@
   }
 
   .project-slide-description-text {
+    line-height: 0;
     .image-caption-body-font;
     color: @imageCaptionBodyColor;
     max-width: 32em;
@@ -233,6 +234,7 @@
 
 .project-slide-description-wrapper {
   margin: auto;
+  
 }
 
 /* Project Caption Text Alignment */
@@ -1036,4 +1038,8 @@
   img {
     vertical-align: middle;
   }
+}
+
+h3:empty, p:empty {
+  display: none;
 }

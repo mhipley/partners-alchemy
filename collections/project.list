@@ -23,7 +23,9 @@
                 {.section title}
                   <h3 class="project-slide-description-title">{@}</h3>
                 {.end}
+
                 {.section body}
+
                   <div class="project-slide-description-text">{@}</div>
                 {.end}
               </div>
